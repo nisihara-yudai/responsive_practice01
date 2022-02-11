@@ -1,0 +1,52 @@
+body{
+  margin: 0 auto;
+  text-align: center;
+}
+
+p.responsive{
+  color: blue;
+}
+
+.practice{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  column-count: 2;
+}
+
+img.response{
+  width: 30%;
+  margin: 5%;
+  
+}
+
+/* @media screen and (max-width:768px){
+  p.responsive{
+    color: red;
+  }
+}
+
+@media screen and (max-width:480px){
+  p.responsive{
+    color: green;
+  }
+} */
+
+@media screen and (min-width:481px){
+  p.responsive{
+    color: green;
+  }
+
+  .practice{
+  }
+}
+
+@media screen and (min-width:769px){
+  p.responsive{
+    color: red;
+  }
+
+  .practice{
+  }
+}
+
